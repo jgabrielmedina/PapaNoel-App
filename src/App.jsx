@@ -95,7 +95,7 @@ function App() {
 
 
   return (
-    <div className=' sm:grid sm:grid-cols-2 sm:mt-auto sm:h-10 '>
+    <div className='sm:grid sm:grid-cols-2 sm:mt-auto sm:h-10'>
       <div className='bg-white rounded-3xl py-4 shadow-lg '>
 
         <Modal isOpen={isOpenModal} closeModal={closeModal}>
@@ -226,7 +226,7 @@ function App() {
       </div>
 
       <div className='w-80 sm:ml-20 sm:w-60'>
-        <img src="/bgGift.jpg" alt="foto" className='py-2' />
+        <img src="/bgGift.jpg" alt="foto" className='pt-5 sm:max-w-lg' />
       </div>
 
     </div>
